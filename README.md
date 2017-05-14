@@ -98,7 +98,7 @@ return [
 ];
 
 ```
-this is methods and classess built in package you can use all form any where
+this is methods and classes built in package you can use all form any where
 ```php
 
 app('lang');
