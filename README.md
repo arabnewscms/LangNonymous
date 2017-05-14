@@ -1,6 +1,7 @@
 # Simple Translation Package
-A Simple Translate To convert ui and local language. Developed By PhpAnonymous ( phpanonymous.com )
+A Simple Translate To convert ui and local language. Creation and development By PhpAnonymous ( phpanonymous.com )
 Laravel Version 5 and Above 
+
 ##Install with Composer 
 ```php
 composer require Langnonymous/Lang:dev-master
