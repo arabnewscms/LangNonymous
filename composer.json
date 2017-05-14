@@ -1,5 +1,5 @@
 {
-	"name":"Langnonymous/Lang",
+	"name":"langnonymous/lang",
 	"description": "Simple Package Language To Laravel",
 	"type":"package",
 	"license": "MIT",
