@@ -168,13 +168,13 @@ or you can custom any language needed want
 
 // to set lang on your web okay follow this 
 // in blade file put master language 
-<a href="{{L::put('ar')}}">{{trans('main.ar')}}</a>
-<a href="{{L::put('en')}}">{{trans('main.en')}}</a>
-<a href="{{L::put('es')}}">{{trans('main.es')}}</a>
-<a href="{{L::put('jp')}}">{{trans('main.jp')}}</a>
+<a href="{{L::put('ar')}}">{{trans('yourfile.ar')}}</a>
+<a href="{{L::put('en')}}">{{trans('yourfile.en')}}</a>
+<a href="{{L::put('es')}}">{{trans('yourfile.es')}}</a>
+<a href="{{L::put('jp')}}">{{trans('yourfile.jp')}}</a>
 // or you can loop all automatically with method L::all();
 @foreach(L::all() as $lang)
-                            <a href="{{L::put($lang)}}">{{trans('main.'.$lang)}}</a> . 
+                            <a href="{{L::put($lang)}}">{{trans('yourfile.'.$lang)}}</a> . 
                  @endforeach
 // for singleton 
 
