@@ -83,7 +83,7 @@ Route::group(['middleware'=>'Lang'],function(){
 // put all routes here please ...i'ts fine :)
 });
 ```
-now you maybe want configuer your file langnonymous 
+now you maybe want configure your file langnonymous 
 ```php
 <?php 
 
