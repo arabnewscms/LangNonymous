@@ -75,7 +75,7 @@ class Lang extends Controller {
 				}
 			});
 
-		foreach (['lang', 'l', 'anonylang'] as $name) {
+		foreach (['lang', 'l', 'anonylang', 'direction', 'direct'] as $name) {
 			app()->singleton($name, function () {
 					return self::checklang();
 				});
