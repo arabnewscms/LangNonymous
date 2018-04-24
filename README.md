@@ -4,7 +4,7 @@ Laravel Version 5 and Above
 
 ##Install with Composer 
 ```php
-composer require Langnonymous/Lang:dev-master
+composer require Langnonymous/Lang 
 ```
 # Provider Class 
 put on your ` config/app.php ` in provider array this class
