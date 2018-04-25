@@ -75,13 +75,15 @@ class Lang extends Controller {
 				}
 			});
 
-		foreach (['lang', 'l', 'anonylang', 'direction', 'direct'] as $name) {
+		foreach (['lang', 'l', 'anonylang'] as $name) {
 			app()->singleton($name, function () {
 					return self::checklang();
 				});
 		}
 
 		app()->singleton('dir', function () {if (self::checklang() == 'ar') {return 'rtl';} else {return 'ltr';}});
+		app()->singleton('direction', function () {if (self::checklang() == 'ar') {return '-rtl';} else {return '-ltr';}});
+		app()->singleton('direct', function () {if (self::checklang() == 'ar') {return '-rtl';} else {return '-ltr';}});
 	}
 
 	public static function checklang() {
