@@ -82,8 +82,8 @@ class Lang extends Controller {
 		}
 
 		app()->singleton('dir', function () {if (self::checklang() == 'ar') {return 'rtl';} else {return 'ltr';}});
-		app()->singleton('direction', function () {if (self::checklang() == 'ar') {return 'rtl';} else {return 'ltr';}});
-		app()->singleton('direct', function () {if (self::checklang() == 'ar') {return 'rtl';} else {return 'ltr';}});
+		app()->singleton('direction', function () {if (self::checklang() == 'ar') {return '-rtl';} else {return '';}});
+		app()->singleton('direct', function () {if (self::checklang() == 'ar') {return '-rtl';} else {return '';}});
 	}
 
 	public static function checklang() {
