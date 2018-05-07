@@ -15,8 +15,6 @@
             "role": "Developer"
         }
     ],
-    "require": {
-    },
     "autoload": {
         "psr-4": {
             "Langnonymous\\Lang\\": "src/"
