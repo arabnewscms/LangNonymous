@@ -25,6 +25,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Langnonymous\\Lang\\Langnonymous"
+            ],
+            "aliases": {
+                "L": "Langnonymous\\Lang\\Lang"
+            }
         }
     },
     "minimum-stability": "dev",
