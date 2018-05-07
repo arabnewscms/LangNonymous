@@ -1,32 +1,38 @@
 {
-	"name":"langnonymous/lang",
-	"description": "Simple Package Language To Laravel",
-	"type":"package",
-	"license": "MIT",
-	"version":"1.0",
-	"keywords":["laravel","trans","php"],
-	"authors":[
-	{
-		"name":"PhPAnonymous Developers Group On Facebook",
-		"email":"admin@phpanonymous.com",
-		"homepage":"http://phpanonymous.com",
-		"role":"Developer"
-	}
-
-	],
-	"require":{
-	 
-	},
-	"autoload":{
-		"psr-4":{
-			"Langnonymous\\Lang\\":"src/"
-		}
-	},
-	"extra": {
-    "branch-alias": {
+    "name": "langnonymous/lang",
+    "description": "Simple Package Language To Laravel",
+    "type": "package",
+    "license": "MIT",
+    "version": "1.0",
+    "keywords": [
+        "laravel", "trans", "php"
+    ],
+    "authors": [
+        {
+            "name": "PhPAnonymous Developers Group On Facebook",
+            "email": "admin@phpanonymous.com",
+            "homepage": "http://phpanonymous.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Langnonymous\\Lang\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
             "dev-master": "1.0.x-dev"
-    }
-  },
-	"minimum-stability": "dev",
+        },
+        "laravel": {
+            "providers": [
+                "Langnonymous\\Lang\\Langnonymous"
+            ],
+            "aliases": {
+                "L": "Langnonymous\\Lang\\Lang"
+            }
+        }
+    },
+    "minimum-stability": "dev",
     "prefer-stable": "true"
 }
