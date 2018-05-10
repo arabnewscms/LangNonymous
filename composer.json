@@ -30,7 +30,7 @@
                 "Langnonymous\\Lang\\Langnonymous"
             ],
             "aliases": {
-              'L'         => "Langnonymous\\Lang\\Lang"
+              "L"        : "Langnonymous\\Lang\\Lang"
             }
         }
   },
