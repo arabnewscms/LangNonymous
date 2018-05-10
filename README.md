@@ -7,14 +7,15 @@ Laravel Version 5 and Above
 composer require Langnonymous/Lang 
 ```
 # Provider Class 
-put on your ` config/app.php ` in provider array this class
+this provider is auto registred 
 ```php
   Langnonymous\Lang\Langnonymous::class,
  
 ```
 
 #Aliases 
-add this in aliases array
+this aliases auto registred
+
 ```php 
 'L'         => Langnonymous\Lang\Lang::class,
 ```
