@@ -3,7 +3,7 @@
 	"description": "Simple Package Language To Laravel",
 	"type":"package",
 	"license": "MIT",
-	"version":"1.1",
+	"version":"1.2",
 	"keywords":["laravel","trans","php"],
 	"authors":[
 	{
@@ -24,7 +24,7 @@
 	},
 	"extra": {
     "branch-alias": {
-            "dev-master": "1.1.x-dev"
+            "dev-master": "1.2.x-dev"
     }, "laravel": {
             "providers": [
                 "Langnonymous\\Lang\\Langnonymous"
