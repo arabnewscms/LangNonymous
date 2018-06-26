@@ -22,7 +22,7 @@
 	},
 	"extra": {
     "branch-alias": {
-            "dev-master": "1.2.1.x-dev"
+            "dev-master": "1.2.02.x-dev"
     }, "laravel": {
             "providers": [
                 "Langnonymous\\Lang\\Langnonymous"
@@ -32,7 +32,7 @@
             }
         }
   },
-	  "version":"1.2.1",
+	  "version":"1.2.02",
 	  "minimum-stability": "dev",
  	  "prefer-stable": true
 }
