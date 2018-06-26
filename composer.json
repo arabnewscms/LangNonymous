@@ -8,8 +8,7 @@
 	{
 		"name":"PhPAnonymous Developers Group On Facebook",
 		"email":"admin@phpanonymous.com",
-		"homepage":"http://phpanonymous.com",
-		"role":"Developer"
+		"homepage":"http://phpanonymous.com"
 	}
 
 	],
@@ -33,7 +32,7 @@
             }
         }
   },
-	"version":"1.2.1",
-	"minimum-stability": "dev",
-    "prefer-stable": "true"
+	  "version":"1.2.1",
+	  "minimum-stability": "dev",
+ 	  "prefer-stable": true
 }
