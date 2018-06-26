@@ -3,7 +3,6 @@
 	"description": "Simple Package Language To Laravel",
 	"type":"package",
 	"license": "MIT",
-	"version":"1.2",
 	"keywords":["laravel","trans","php"],
 	"authors":[
 	{
@@ -15,7 +14,7 @@
 
 	],
 	"require":{
-	 "php": ">= 7.1"
+	 "php": ">= 7.0"
 	},
 	"autoload":{
 		"psr-4":{
@@ -34,6 +33,7 @@
             }
         }
   },
+	"version":"1.2.0",
 	"minimum-stability": "dev",
     "prefer-stable": "true"
 }
